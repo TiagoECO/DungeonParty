@@ -1,0 +1,62 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    background-color: aqua;
+    display: grid;
+    margin: 30px 5% 0 5%;
+    grid-template-columns: 75% auto;
+    grid-template-areas:
+        'header header'
+        'nav nav'
+        'section aside';
+    gap: 2%;
+}
+
+header {
+    background-color: greenyellow;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+    padding: 20px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+
+    font-size: larger;
+    margin: 0 5%;
+}
+
+.menu-profile {
+    background-color: palegreen;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: blueviolet;
+    grid-area: section;
+    
+    padding: 20px;
+}
+
+article {
+    background-color: aquamarine;
+    
+    margin: 20px;
+    padding: 20px;
+}
+
+aside {
+    background-color: brown;
+    grid-area: aside;
+    
+    padding: 20px;
+}

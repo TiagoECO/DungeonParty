@@ -1,2 +1,2 @@
 # DungeonParty
-Dungeon Party é uma plataforma para encontrar pessoas que queiram jogar algum jogo em comum.
+Dungeon Party é uma plataforma para encontrar pessoas que queiram jogar algum jogo em comum, seja videogames, boardgames ou RPGs online ou de mesa. Nele é possível ficar informado sobre o que acontece no mundo dos jogos. Além disso tudo, ele possibilita a junção de pessoas ara game jams proporcionando assim a produção de jogos indies. Feito para o Projeto Interdisciplinar: Sistema Empresarial Web em grupo na FECAP.
