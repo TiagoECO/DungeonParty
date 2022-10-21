@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="strylesheet" href="cadastro.css">
+    <title>formulario de cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/dragao.jpg">
+    </div>
+
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="tittle">
+                    <h2>Crie sua Conta</h2>
+                </div>
+                
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="email">Digite seu e-mail</label>
+                    <input id="email" type="string" name="email" placeholder="Digite Seu Email" required>
+                </div>
+
+                <div class="password">
+                    <label for="password">Digite uma Senha</label>
+                    <input id="password" type="password" name="password" placeholder="Digite Uma Senha" required>
+                </div>
+
+                <div class="password2">
+                    <label for="password2">Corfirme sua Senha</label>
+                    <input id="password2" type="password" name="password2" placeholder="Confirme sua Senha" required>
+                </div>
+            </div>
+
+            <div class="login-button">
+                <button><a href="#">Logar</a></button>
+            </div>
+
+            <div class="avanco-button">
+                <button><a href="#">Avançar</a></button>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    
+</body>
+</html>
